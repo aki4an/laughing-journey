@@ -90,4 +90,12 @@ public class Main {
 
         fileWriter.close();
     }
+
+    public static Limousine limousineForTests() {
+        return new Limousine("Hummer", "H2", 16, 320, 450.0, 480);
+    }
+
+    public static Pickup pickupForTests() {
+        return new Pickup("Dodge", "RAM TRX", 5, 700, 950.0, 430);
+    }
 }
